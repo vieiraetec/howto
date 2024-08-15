@@ -1,0 +1,51 @@
+/* Reset das configurações do navegador */ 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 2em auto;  
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 66%);
+    grid-template-rows: repeat(3, 33%);
+    max-width: 55em;
+}
+
+.grid {
+    border: 1px solid rgb(183, 27, 27);
+    min-width: 20em;
+    min-height: 20em;
+    display: block;
+    justify-content: center;
+    align-items: center;    
+    cursor: pointer;    
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    margin: 1em;
+}
+
+img {
+    display: flex;
+    width: 30%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    display: flex;
+    margin: 0 auto;
+    width: 20em;
+    height: 2em;
+    justify-content: center;
+}
